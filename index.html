@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Meio Ambiente nas Marginais</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f7f4;
+color:#333;
+}
+
+header{
+height:20vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:rgb(10, 10, 10);
+}
+
+header h1{
+font-size:50px;
+padding:20px;
+border-radius:10px;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#2e7d32;
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+margin:20px;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+}
+
+nav a:hover{
+color:#c8e6c9;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+color:#2e7d32;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+overflow:hidden;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#2e7d32;
+}
+
+.about{
+display:flex;
+flex-wrap:wrap;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:450px;
+border-radius:10px;
+}
+
+.about-text{
+flex:1;
+font-size:18px;
+line-height:1.6;
+}
+
+footer{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.topo{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#2e7d32;
+color:white;
+border:none;
+padding:15px;
+border-radius:50%;
+font-size:20px;
+cursor:pointer;
+}
+
+.topo:hover{
+background:#1b5e20;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#inicio">Início</a>
+<a href="#sobre">Sobre</a>
+<a href="#problemas">Problemas</a>
+<a href="#solucoes">Soluções</a>
+</nav>
+
+<header id="inicio">
+<h1>Meio Ambiente nas Marginais</h1>
+</header>
+
+<section id="sobre">
+
+<h2 class="section-title">Sobre as Marginais</h2>
+
+<div class="about">
+
+<img src="https://img.cdndsgni.com/preview/12058373.jpg" alt="marginal pinheirs/tiete">
+
+<div class="about-text">
+<p>
+As marginais são grandes avenidas construídas ao longo de rios nas cidades.
+Em São Paulo, as mais conhecidas são a Marginal Tietê e a Marginal Pinheiros.
+</p>
+
+<p>
+Essas vias são essenciais para o trânsito urbano, mas também causam impactos
+ambientais importantes devido à grande circulação de veículos, poluição
+e ocupação urbana próxima aos rios.
+</p>
+
+<p>
+Por isso, é fundamental discutir formas de preservar o meio ambiente nessas áreas.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="problemas">
+
+<h2 class="section-title">Problemas Ambientais</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://www.seesp.org.br/site/images/Rios_urbanos_poluicao.jpg" alt="imagem da poluicao dos rios">
+<div class="card-content">
+<h3>Poluição dos rios</h3>
+<p>
+Muitos rios próximos às marginais sofrem com o despejo de lixo e esgoto,
+o que prejudica a vida aquática e o meio ambiente.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://i0.wp.com/logicambiental.com.br/wp-content/uploads/2015/10/post-polui%C3%A7%C3%A3o-atmosferica.png?fit=611%2C407&ssl=1" alt="imagem da poluicao do ar">
+<div class="card-content">
+<h3>Poluição do ar</h3>
+<p>
+A grande quantidade de carros e caminhões gera gases poluentes que afetam
+a saúde da população e aumentam o aquecimento global.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/enchenteriogradesuldivulgacao.jpg?w=1900&h=1137" alt="imagem enchentes">
+<div class="card-content">
+<h3>Enchentes</h3>
+<p>
+A falta de áreas verdes e o excesso de concreto aumentam o risco
+de enchentes nas regiões próximas aos rios.
+</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="solucoes">
+
+<h2 class="section-title">Possíveis Soluções</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG9sSCO_iU29e7U5qZoeVAhlXTAUMQJLJ5mA&s" alt="imagem do parque ibirapuera">
+<div class="card-content">
+<h3>Plantio de árvores</h3>
+<p>
+A arborização urbana ajuda a reduzir a temperatura,
+melhorar a qualidade do ar e aumentar a biodiversidade.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpS7RquQaj7KLU0bc25E5FW0M62ivQiToYvQ&s" alt="imagem de um bicicletario">
+<div class="card-content">
+<h3>Uso de bicicletas</h3>
+<p>
+O incentivo ao uso de bicicletas e ciclovias pode reduzir
+o número de carros nas marginais.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.jota.info/wp-content/uploads/2025/04/onibus-tarifa-09-scaled.jpg" alt="imagem de um onibus eletrico">
+<div class="card-content">
+<h3>Transporte público</h3>
+<p>
+Investir em transporte público eficiente ajuda a diminuir
+a poluição e melhorar a mobilidade urbana.
+</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p> Meio Ambiente nas Marginais</p>
+
+</footer>
+
+<button class="topo" onclick="window.scrollTo(0,0)">↑</button>
+
+</body>
+</html>
